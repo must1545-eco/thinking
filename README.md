@@ -31,10 +31,12 @@
 
 ## GitHub Pages 배포
 
-1. 새 저장소를 만들고 이 폴더의 `index.html` 과 `privacy.html` 을 올립니다.
+공개 주소: **https://must1545-eco.github.io/thinking/** (저장소 `must1545-eco/thinking`, 소스 `main` / `/ (root)`)
+
+1. 이 폴더의 `index.html` `privacy.html` `robots.txt` `sitemap.xml` 을 `main` 브랜치 루트에 올립니다.
 2. 저장소 **Settings → Pages** 에서 Source를 `Deploy from a branch`, Branch를 `main` / `/ (root)` 로 지정합니다.
-3. 잠시 뒤 `https://<아이디>.github.io/<저장소>/` 에서 열립니다.
-4. 검색 노출을 위해 `robots.txt`·`sitemap.xml` 을 함께 올립니다(이 폴더에 포함). `index.html` 의 Open Graph 태그에 실제 주소(`og:url`)와 대표 이미지(`og:image`)를 추가하면 좋습니다. (`og:url`·`canonical` 은 반영 완료, `og:image` 는 아직 없음)
+3. 잠시 뒤 `https://must1545-eco.github.io/thinking/` 에서 열립니다.
+4. 검색 노출용 `robots.txt`·`sitemap.xml` 은 저장소에 포함되어 있고, 안의 주소는 위 공개 주소 기준입니다. `og:image` 는 아직 없습니다(`og:url`·`canonical` 은 반영 완료).
 
 ## 미리보기
 

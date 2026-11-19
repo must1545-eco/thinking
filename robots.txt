@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://must1545-eco.github.io/date-age-calculator/sitemap.xml
+Sitemap: https://must1545-eco.github.io/thinking/sitemap.xml
