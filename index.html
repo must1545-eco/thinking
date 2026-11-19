@@ -280,9 +280,9 @@ select.unit:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px r
         <div class="row">
           <div class="date-box">
             <div class="ymd">
-              <span class="seg"><input class="w4" id="birth-y" type="number" inputmode="numeric" min="1900" max="2200" step="1" placeholder="1993" aria-label="출생 연도"><em>년</em></span>
-              <span class="seg"><input class="w2" id="birth-m" type="number" inputmode="numeric" min="1" max="12" step="1" placeholder="02" aria-label="출생 월"><em>월</em></span>
-              <span class="seg"><input class="w2" id="birth-d" type="number" inputmode="numeric" min="1" max="31" step="1" placeholder="14" aria-label="출생 일"><em>일</em></span>
+              <span class="seg"><input class="w4" id="birth-y" type="number" inputmode="numeric" min="1900" max="2200" step="1" placeholder="2000" aria-label="출생 연도"><em>년</em></span>
+              <span class="seg"><input class="w2" id="birth-m" type="number" inputmode="numeric" min="1" max="12" step="1" placeholder="01" aria-label="출생 월"><em>월</em></span>
+              <span class="seg"><input class="w2" id="birth-d" type="number" inputmode="numeric" min="1" max="31" step="1" placeholder="01" aria-label="출생 일"><em>일</em></span>
             </div>
             <div class="cal">
               <input class="cal-input" type="date" id="birth-picker" tabindex="-1" aria-hidden="true" aria-label="달력에서 생년월일 선택">
@@ -513,7 +513,7 @@ select.unit:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px r
     <h2>계산 기준 안내</h2>
     <ul>
       <li><strong>만 나이</strong> — 「행정기본법」에 따른 만 나이 통일(2023. 6. 28. 시행) 기준입니다. 생일이 지나지 않았으면 1살을 뺍니다.</li>
-      <li><strong>연 나이</strong> — 현재 연도에서 태어난 연도를 뺀 값입니다. (예: 2026년 − 1993년 = 33세)</li>
+      <li><strong>연 나이</strong> — 현재 연도에서 태어난 연도를 뺀 값입니다. (예: 2026년 − 2000년 = 26세)</li>
       <li><strong>2월 29일생</strong> — 2월 29일이 없는 해에는 2월 28일에 생일이 온 것으로 봅니다. (민법 제160조 제3항)</li>
       <li><strong>띠</strong> — 음력 정월 초하루(설날)에 바뀌는 것으로 계산합니다. 1900~2050년 설날 날짜를 내장했고, 그 밖의 연도는 양력 연도 기준입니다.</li>
       <li><strong>별자리</strong> — 양력 날짜 기준의 서양 12궁 경계일을 사용합니다.</li>
